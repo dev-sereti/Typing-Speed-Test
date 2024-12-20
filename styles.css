@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .instructions {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  #sentence-box {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  #input-box {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .results {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .results p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
